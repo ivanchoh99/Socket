@@ -12,7 +12,7 @@ public class Server {
 //    Conexion Base de Datos y utilidades SQL
         String url = "jdbc:mysql://localhost:3306/poli";
         String username = "root";
-        String password = "michi0602";
+        String password = "";
         ResultSet resultSet = null;
         Connection con = DriverManager.getConnection(url, username, password);
 
