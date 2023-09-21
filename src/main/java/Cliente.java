@@ -12,7 +12,7 @@ public class Cliente {
         DataInputStream input;
         DataOutputStream output;
 
-        String host = "192.168.1.5";
+        String host = "";
         int port = 5000;
         String solicitud = "Si desea salir enviar 'x' \n ¿ Numero de telefono que desea buscar ?";
 
